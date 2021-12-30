@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss';
+.wrapper{
+    background-color: $background-grey;
+    border: 1px solid $lighter-grey;
+    margin-bottom: 1em;
+    border-radius: 2px;
+    padding: 1em;
+}

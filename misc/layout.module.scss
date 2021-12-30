@@ -1,0 +1,12 @@
+@import "../styles/variables.scss";
+.wrapper{
+    // min-height: 500px;
+    background-color: $background-grey;
+    display: block;
+    position: relative;
+    min-height: 500px;
+    h3{
+        margin-bottom: 1em;
+        text-align: center;
+    }
+}

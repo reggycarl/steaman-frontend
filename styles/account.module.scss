@@ -1,0 +1,15 @@
+@import './variables.scss';
+.wrapper{
+    // background-color: $dark-grey;
+}
+.balance{
+    margin-top: 2em;
+}
+.addressBox{
+    background: $background-grey;
+        border: 1px solid $lighter-grey;
+        border-radius: 2px;
+        padding: 1em;
+        margin-bottom: 1em;
+   
+}

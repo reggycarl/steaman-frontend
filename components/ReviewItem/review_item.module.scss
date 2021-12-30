@@ -1,0 +1,57 @@
+@import "../../styles/variables.scss";
+.wrapper{
+    min-height: 120px;
+    border: 1px solid $lighter-grey;
+    padding: 1em;
+    transition:  all 0.2s;
+    a{
+        color: $black !important;
+    }
+}
+.linkWrapper{
+    color: $black ;
+}
+.linkWrapper:hover{
+    color:  $yellow;
+    > div{
+        border: 1px solid $light-grey;
+    background-color: $ligher-yellow;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+}
+.photoBox{
+    height: 100px;
+    width: 150px;
+    background-color: $light-grey;
+    display: inline-block;
+    float: left;
+    background-color: $white;
+    background-image: url("/images/image_background.png");
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: 50px auto;
+    text-align: center;
+    background-position: center;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    img{
+        width: auto;
+        height: 100%;
+    }
+}
+.orderInfo{
+    
+    float: left;
+    padding: 0 1em;
+    
+    p{
+        margin-bottom: 0.5em;
+    }
+    h4{
+        margin: 0 !important;
+        display: inline-block;
+    }
+}
+

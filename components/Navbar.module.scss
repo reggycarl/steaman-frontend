@@ -1,0 +1,35 @@
+@import "../styles/variables.scss";
+.navbar {
+  background-color: aqua;
+}
+.drop_down_menu {
+  border-radius: 0;
+  span {
+    svg {
+      margin-right: 1em;
+    }
+  }
+  button {
+    border-radius: 0;
+  }
+  button:active,
+  .drop-down-item {
+    border: none;
+    background-color: $yellow;
+    color: $black;
+  }
+}
+.mobileMenu {
+  // background-color: black;
+  a {
+    svg {
+      color: $black;
+      margin-right: 2em;
+    }
+  }
+}
+@media (min-width: 600px) {
+  .mobileMenu {
+    display: none;
+  }
+}

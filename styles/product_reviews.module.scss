@@ -1,0 +1,35 @@
+@import "../styles/variables.scss";
+
+.wrapper {
+}
+.detailedWrapper {
+}
+.detailedPhotoBox {
+  height: 200px;
+  width: 300px;
+
+  display: inline-block;
+  float: left;
+  background-color: $white;
+  background-image: url("/images/image_background.png");
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  background-size: 50px auto;
+  text-align: center;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  img {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.detailedProductInfo {
+  //   float: left;
+  padding: 0 1em;
+  //   margin: 0 1em;
+  width: auto !important;
+  margin-left: 300px;
+}

@@ -1,0 +1,116 @@
+@import "../../styles/variables.scss";
+.wrapper {
+  margin-top: 1em;
+  background-color: $background-grey;
+}
+.topSide {
+  min-height: 50px;
+  margin-bottom: 2em;
+  background-color: $white;
+}
+.pictureContainer {
+  // background-color: $lighter-grey;
+  background-color: $white;
+  background-image: url("/images/image_background.png");
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  background-size: 100px auto;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  // height: 500px;
+  overflow: visible;
+  .react-slider__picture {
+    height: 200px !important;
+    img {
+      height: 300px !important;
+      width: auto;
+    }
+  }
+  .react-slider__ul {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  // img {
+  //   height: 450px;
+  // }
+}
+.productInfo {
+  background-color: $white;
+  margin-bottom: 2em;
+}
+.productDetails {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  h2 {
+    color: $yellow;
+  }
+}
+.yellow {
+  color: $yellow;
+}
+.discountInfo {
+  font-size: 0.5em;
+  color: $black;
+  strikethrough {
+    text-decoration: line-through;
+  }
+}
+.sellerInformation {
+  min-height: 60px;
+  background-color: $white;
+  margin-bottom: 2em;
+  padding: 2em 1em;
+  text-align: left !important;
+  h3 {
+    text-align: left;
+    margin: 0;
+  }
+}
+.additonalProductInfo {
+  min-height: 200px;
+  background-color: $white;
+  margin-bottom: 2em;
+}
+.company_name {
+  color: $yellow;
+}
+.tab_content {
+  // padding: 2em;
+  border: none;
+  h4 {
+    margin-top: 1em;
+  }
+}
+.productsList {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.out_of_stock {
+  color: #f00 !important;
+  font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+  .pictureContainer {
+    // background-color: $lighter-grey;
+
+    margin: 0;
+    padding: 0;
+    // height: 500px;
+    overflow: hidden;
+  }
+}
+.reviewStarsBox {
+  display: block;
+  > div {
+    display: inline !important;
+  }
+  > span {
+    display: inline;
+    // padding-bottom: 0.7em;
+    // padding-top: 1em;
+    line-height: 1.8em;
+  }
+}

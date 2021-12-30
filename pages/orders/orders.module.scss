@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.wrapper{
+    // min-height: 500px;
+    a{
+        color: $yellow;
+    }
+    a:hover{
+        color: $dark-grey;
+        text-decoration: none;
+    }
+}
+.orders_image{
+    height: 150px;
+}
+.product_image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background-color: $lighter-grey;
+    float: left;
+    margin-right: 1em;
+    img{
+        height: 100%;
+        width: auto;
+    }
+}

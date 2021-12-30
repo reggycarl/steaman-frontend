@@ -1,0 +1,33 @@
+@import "../../styles/variables.scss";
+.wrapper {
+  display: inline-block;
+  max-width: 120px;
+  
+  button,
+  input {
+    text-align: center;
+  }
+  div,input{
+    // display: inline;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  // button{
+  //     border: 0;
+  //     height: 100%;
+  //     background-color: $yellow;
+  // }
+  // input{
+  //     text-align: center;
+  //     // border: ;
+  //     padding: 0 !important;
+  // }
+}

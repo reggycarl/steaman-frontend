@@ -1,0 +1,102 @@
+@import './variables';
+.wrapper{
+    // background-color: $black;
+    
+    .productPhoto {
+        width: 100px;
+        height: 100px;
+        background-color: $white;
+        border: 1px solid $lighter-grey;
+        display: inline-block;
+        margin-right: 1em;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .productName{
+        display: inline-block;
+        vertical-align: top;
+        vertical-align: top;
+        h5 {margin-bottom: 1em;}
+    }
+    a{
+        color: $yellow;
+    }
+    
+}
+
+.summaryBox{
+    background: $background-grey;
+    min-height: 200px;
+    
+    padding-bottom: 2em;
+    padding-top: 1em;
+    h4{
+        padding: 0.5em .5em;
+        border-bottom: 1px solid $dark-grey;
+    }
+    
+}
+.addressBox{
+    
+    > div{
+        padding: 1em;
+        min-height: 80px;
+    background-color: $background-grey;
+    border-radius: 2px;
+    }
+    > div:hover{
+        cursor: pointer;
+        background-color: $lighter-grey;
+    }
+}
+.deliveryMethodCard{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    h5{
+        margin-top: 1em;
+    }
+}
+.cart_img{
+    height: 150px;
+    width: auto;
+}
+
+.orderSuccessBox{
+    padding: 6em 2em;
+    text-align: center !important;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    
+}
+
+.payment_channels{
+    .form-group{
+        margin-bottom: 0;
+    }
+}
+.payment_channel_notes{
+    margin-top: .5em;
+    font-size: .9em;
+    margin-bottom: .5em;
+    margin-right: 1px solid $yellow;
+    background-color: $background-grey;
+    padding: 1em;
+    
+}
+.payment_channel_form_group{
+    input{
+        display: block;
+    }
+    label{
+        display:  block;
+        
+    }
+    .wallet_label{
+        font-size: .9em;
+    }
+}

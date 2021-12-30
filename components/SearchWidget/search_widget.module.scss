@@ -1,0 +1,51 @@
+@import "../../styles/variables.scss";
+.wrapper{
+    // background-color: $black;
+    overflow: visible;
+}
+.searchResult{
+    min-height: 40px;
+    background-color: $white;
+    position: absolute;
+    padding: 0;
+    z-index: 1000;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            padding: 1em;
+            border-left: 5px solid $white;
+            color: $black;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        li:hover{
+            border-left-color: $yellow;
+            background-color: $ligher-yellow;
+            cursor: pointer;
+
+        }
+    }
+}
+.search_bar{
+    // margin: 0 !important;
+    // padding: 0 !important;
+}
+
+@media (max-width: 600px)  { 
+    .wrapper{
+        // background-color: $black;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        overflow: visible;
+        
+    }
+    .search_bar{
+        // margin: 0 !important;
+        // padding: 0 !important;
+    }
+    
+}

@@ -1,0 +1,21 @@
+@import './variables.scss';
+.wrapper{
+    background-color: $white;
+    min-height: 500px;
+    max-height: 900px;
+    overflow: hidden;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    #loginContainer{
+        background-color: $white;
+    }
+    .loginBox{
+        background: $white;
+        height: 500px !important;
+    }
+    
+    h1 {
+        color: $yellow;
+    }
+}
+

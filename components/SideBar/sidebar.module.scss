@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+.sidebar {
+  padding-top: 2em;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 500px;
+  background-color: $white;
+  border-right: 1px solid $lightest-grey;
+  h5 {
+    margin: 0.2em 1em;
+    font-weight: bold;
+    // border-bottom: 1px solid $yellow;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    min-height: 50px;
+    max-height: 200px;
+    overflow-y: auto;
+    border-bottom: 1px solid $lightest-grey;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    // padding: 0;
+    padding: 1em;
+  }
+}
+.colorbox {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+}
